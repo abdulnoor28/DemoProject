@@ -43,11 +43,8 @@ export default function Navbar() {
             onClick={() => handleNav('#home')}
             className="flex items-center gap-3 group"
           >
-            <div className="w-10 h-10 bg-gold-500 rounded-sm flex items-center justify-center group-hover:bg-gold-400 transition-colors">
-              <Car className="w-5 h-5 text-navy-900" strokeWidth={2.5} />
-            </div>
             <div className="text-left">
-              <div className="font-display font-bold text-white text-lg leading-none">EliteDrive</div>
+              <div className="font-display font-bold text-white text-lg leading-none">Car</div>
               <div className="text-gold-500 text-xs tracking-[0.2em] uppercase font-mono">Travel & Rentals</div>
             </div>
           </button>
